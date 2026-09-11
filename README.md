@@ -1,62 +1,81 @@
 # Project Title
 
-Numpy Tutorial
+Two-Wheeler Resale Market Analysis in India
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This project analyzes the two-wheeler resale market in India and focuses on resale prices and the factors that affect them. The data is cleaned and prepared using Python with Pandas and NumPy. Seaborn and Matplotlib are used for data visualization and exploratory analysis. Descriptive and Diagnostic Analysis are used to understand trends and patterns in the data. The analyzed data is presented through an interactive Power BI dashboard.
+
+The project studies factors such as state, city tier, fuel type, brand, model, owner type, insurance status, seller type, original price, resale price, mileage, and manufacturing year. The project also compares original price and resale price to understand the depreciation pattern of two-wheelers.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Google Colab
+* Python
+* Pandas
+* NumPy
+* Seaborn
+* Matplotlib
+* Power BI
+* Web browser
+* Dataset from Hugging Face
+* Data timeline: 2021-2024
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Open the Python notebook in Google Colab.
+* Upload or connect the project dataset.
+* Install the required Python libraries if they are not already available.
+* Open the cleaned dataset in Power BI for dashboard creation.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Open the project notebook in Google Colab.
+* Load the two-wheeler resale dataset.
+* Check and clean missing values and duplicate records.
+* Convert columns into suitable data types.
+* Standardize text and categorical values.
+* Check skewness and detect outliers using the IQR method.
+* Handle the identified outliers and validate the final cleaned data.
+* Perform descriptive and diagnostic analysis using Python.
+* Create charts using Seaborn and Matplotlib.
+* Load the cleaned data into Power BI.
+* Create KPI cards, charts, and interactive dashboard pages.
+* Use the dashboard to understand resale price, resale value, depreciation, and other market patterns.
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* Make sure the required Python libraries are available in Google Colab.
+* Check that the dataset columns have the correct names and data types before running the analysis.
+* If the Power BI visuals do not show the expected values, check the selected aggregation and fields.
+* Use the cleaned dataset for Power BI dashboard creation.
 
 ## Authors
 
-Contributors names and contact info
+Sachin
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+LinkedIn  
+Profile: [@Sachin](https://www.linkedin.com/in/sachin-online)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
-    * Initial Release
+    * Initial project release
+    * Python data cleaning and analysis completed
+    * Power BI dashboards created
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the Sachin License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* Hugging Face – Dataset source
+* Google Colab – Python analysis environment
+* Pandas – Data cleaning and transformation
+* NumPy – Numerical data processing
+* Seaborn – Data visualization
+* Matplotlib – Data visualization
+* Microsoft Power BI – Interactive dashboard and visualization
